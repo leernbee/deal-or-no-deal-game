@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Turret+Road&display=swap");
+
+body {
+  font-family: "Turret Road", cursive;
+}
+
+#main {
+  background: url("../images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn-warning {
+  background-color: #000 !important;
+  border: 3px solid #fff662;
+  color: #fff662;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-warning:hover {
+  background-color: #fff662 !important;
+  border: 3px solid #000;
+}
+
+.btn-danger {
+  background-color: #000 !important;
+  border: 3px solid #DC3545;
+  color: #DC3545;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #DC3545 !important;
+  border: 3px solid #000;
+  color: #000!important;
+}
+
+.strike {
+  background-color: black !important;
+  color: white !important;
+}
+#briefcases{
+  background-color: #fafafa;
+}
+#briefcases div {
+  height: 82px;
+}
+
+.briefcase {
+  position: relative;
+}
+
+.briefcase i {
+  font-size: 64px;
+  color: #000;
+}
+
+.briefcase span {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+#your-briefcase {
+  position: relative;
+}
+
+#your-briefcase i {
+  font-size: 72px;
+  color: #000;
+}
+
+#your-briefcase span {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+#messages {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5AB95C;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+#yo-container {
+  height: 200px;
+}
+
+#messages h2 {
+  font-size: 24px;
+}
+
+#messages div {
+  margin-top: 20px;
+}
+
+.briefcase-value {
+  background-color: #fff662;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#bo-box {
+  background-color: #000;
+  height: 320px;
+}
+
+#bo-box h3 {
+  color: #DC3545;
+}
+
+#bank-offer h4 {
+  color: #000;
+  background-color: #fff662;
+  margin: 0;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#bank-offer h4.prev-offer {
+  background-color: transparent;
+  color: #fff;
+}
+
+#yb-box {
+  background-color: #fff662;
+}
+
+#yb-box h3 {
+  font-size: 24px;
+  padding: 5px 0;
+  margin: 0;
+}

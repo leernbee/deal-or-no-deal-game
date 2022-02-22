@@ -1,0 +1,113 @@
+.strike {
+  background-color: black !important;
+  color: white !important;
+}
+
+#briefcases div {
+  height: 86px;
+}
+
+.briefcase {
+  position: relative;
+}
+
+.briefcase i {
+  font-size: 64px;
+  color: #000;
+}
+
+.briefcase span {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+#your-briefcase {
+  position: relative;
+}
+
+#your-briefcase i {
+  font-size: 72px;
+  color: #000;
+}
+
+#your-briefcase span {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+#messages {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+#yo-container {
+  height: 200px;
+}
+
+#messages h2 {
+  font-size: 24px;
+}
+
+#messages div {
+  margin-top: 20px;
+}
+
+.briefcase-value {
+  background-color: yellow;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#bo-box {
+  background-color: #000;
+  height: 320px;
+}
+
+#bo-box h3 {
+  color: red;
+}
+
+#bank-offer h4 {
+  color: #000;
+  background-color: yellow;
+  margin: 0;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#bank-offer h4.prev-offer {
+  background-color: transparent;
+  color: #fff;
+}
+
+#yb-box {
+  background-color: yellow;
+}
+
+#yb-box h3 {
+  font-size: 24px;
+  padding: 5px 0;
+  margin: 0;
+}
